@@ -5,7 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using PostgresCRUD.DataAccess;
-
+// https://stackoverflow.com/questions/46285479/how-to-check-connection-to-database-in-entity-framework-core
+//https://stackoverflow.com/questions/33911316/entity-framework-core-how-to-check-if-database-exists
+//https://www.c-sharpcorner.com/article/crud-operations-in-postgresql-with-ef-core-and-asp-net-core-web-api/
 namespace PostgresCRUD
 {
     public class Startup
