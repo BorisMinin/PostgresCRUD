@@ -19,7 +19,7 @@ namespace PostgresCRUD.Controllers
         {
             _context = context;
         }
-
+        // http://localhost:59817/api/DbAvailability/health
         /// <summary>
         /// возвращает json поток с данными о состоянии доступности БД
         /// </summary>
